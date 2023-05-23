@@ -6,8 +6,7 @@
 header{
     position: relative;
     width: 100%;
-    height: 100px;
-    display: block;
+    height: 200px;
 }
 img{
     width: 100%;
@@ -20,14 +19,14 @@ img{
 }
 main{
    margin: 0 auto;
+   padding: 20px;
     display: flex;
-    /* flex-wrap: wrap; */
     width: 80%;
-    height: 100%;
+    height: 100vh;
 }
 
 .campo-codificar{
-    width: 70%;
+    width: 60%;
     height: 400px;
     padding: 15px;
     /* margin-top: 40px; */
@@ -70,7 +69,7 @@ textarea::placeholder{
 .retorno-decodificador{
     position: relative;
     /* padding: 60px; */
-    width: 30%;
+    width: 40%;
     height: 400px;
 }
 .retorno-decodificador textarea{
