@@ -6,32 +6,34 @@
 header{
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 150px;
 }
 img{
-    width: 100%;
+    width: 70%;
 }
 .logo{
     position: absolute;
     left: 3%;
     top: 30%;
-    /* background-color: red; */
 }
 main{
-   margin: 0 auto;
-   padding: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
     display: flex;
-    width: 80%;
-    height: 100vh;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .campo-codificar{
-    width: 60%;
-    height: 400px;
-    padding: 15px;
-    /* margin-top: 40px; */
-    font-family: sans-serif;
+    width: 600px;
+    min-width: 500px;
     /* background-color: rebeccapurple; */
+    height: 340px;
+    padding: 15px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
 }
  textarea{
     /* background-color: red; */
@@ -54,22 +56,21 @@ textarea::placeholder{
 }
 .btn{
     width: 100%;
-    /* background-color: red; */
+    height: 40px;
 }
 .btn button{
     background-color: transparent;
     border: 2px solid #093469;
     color: #093469;
     width: 49%;
-    padding: 15px;
-    margin-top: 5px;
+    height: 40px;
     border-radius: 15px; 
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .retorno-decodificador{
-    position: relative;
-    /* padding: 60px; */
-    width: 40%;
+    width: 350px;
     height: 400px;
 }
 .retorno-decodificador textarea{
@@ -77,17 +78,19 @@ textarea::placeholder{
     color: #696969;
     font-size: 20px;
     width: 100%;
-    height: 400px;
+    height: 100%;
 }
 .texto-vazio{
-    /* display: none; */
-    width: 70%;
-    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-family: sans-serif;
+    /* background-color: #093469; */
 }
 .texto-vazio p{
     font-size: 15px;
