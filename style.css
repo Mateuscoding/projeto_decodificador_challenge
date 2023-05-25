@@ -22,23 +22,21 @@ main{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
 }
 
 .campo-codificar{
     width: 600px;
     min-width: 500px;
-    /* background-color: rebeccapurple; */
-    height: 340px;
+    height: 400px;
     padding: 15px;
     font-family: sans-serif;
     margin-bottom: 25px;
+    background-color: red;
 }
  textarea{
     /* background-color: red; */
     width: 100%;
-    height: 100%;
+    height: 300px;
     font-size: 30px;
     color: #093469;
     border: none;
@@ -56,21 +54,22 @@ textarea::placeholder{
 }
 .btn{
     width: 100%;
-    height: 40px;
+    height: 80px;
+    /* background-color: #696969; */
 }
 .btn button{
     background-color: transparent;
     border: 2px solid #093469;
     color: #093469;
     width: 49%;
-    height: 40px;
+    height: 67px;
     border-radius: 15px; 
     font-size: 20px;
     cursor: pointer;
 }
 
 .retorno-decodificador{
-    width: 350px;
+    width: 300px;
     height: 400px;
 }
 .retorno-decodificador textarea{
@@ -94,4 +93,32 @@ textarea::placeholder{
 }
 .texto-vazio p{
     font-size: 15px;
+}
+
+
+
+@media (max-width: 768px) {
+    
+    main{
+        flex-direction: column;
+    }
+    .campo-codificar{
+        width: 100%;
+    }
+    .texto-vazio{
+        margin: 0 auto;
+        background-color: #d3d2d2;
+        width: 80%;    
+
+    }
+    .texto-vazio img{
+        display: none;
+    }
+    .retorno-decodificador{
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        padding: 0;   
+    }
+    
 }
