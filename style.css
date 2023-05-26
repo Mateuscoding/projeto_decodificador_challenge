@@ -134,12 +134,11 @@ textarea::placeholder{
 @media(max-width: 440px){
 
         .btn{
-            /* display: block; */
             height: 120px;
-        /* flex-wrap: wrap;         */
         }
         .btn button{
             width: 100%;
+            margin-top: 10px;
         }
 
 
