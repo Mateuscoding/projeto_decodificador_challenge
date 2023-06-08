@@ -19,21 +19,21 @@
     <main>
 
         <div class="campo-codificar">
-            <textarea placeholder="Digite seu texto"></textarea>
+            <textarea id="texto-inserido" placeholder="Digite seu texto"></textarea>
             <p>
                 <i class='bx bxs-error-circle' style='color:#696969'  ></i>
                 apenas letras minusculas e sem acento.
             </p>
             <div class="btn">
-                <button style="background-color: #093469; color: white;">Codificar</button>
-                <button>Descriptografar</button>
+                <button onclick="criptografar()" style="background-color: #093469; color: white;">Criptografar</button>
+                <button onclick="descriptografar()">Descriptografar</button>
             </div>
         </div>
         <div class="retorno-decodificador">
             <p class="texto-retornado">
                
             </p>
-            <button class="copiar">Copiar</button>
+            <button class="copiar" onclick="copiarTexto()">Copiar</button>
             <div class="texto-vazio">
                 <img src="./imagens/High quality products 1 1.svg" alt="">
                 <h2>Nenhuma mensagem encontrada</h2>
@@ -42,5 +42,7 @@
         </div>
 
         </main>
+
+        <script src="./script.js"></script>
 </body>
 </html>

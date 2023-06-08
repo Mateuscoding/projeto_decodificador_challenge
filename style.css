@@ -85,6 +85,12 @@ textarea::placeholder{
     border-radius: 15px;
     cursor: pointer;
     color: #093469;
+    transition: .5s all;
+}
+
+.copiar:hover{
+    background-color: #093469;
+    color: white;
 }
 .texto-vazio{
     width: 100%;
